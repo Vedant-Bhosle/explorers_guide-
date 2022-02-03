@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100&display=swap');
+/* *{
+    margin: 0px;
+    padding: 0px; */
+/* } */
+.nav-link{
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    margin: 0px 10px;
+    position: relative;
+    padding: 0px;
+    /* padding-top: 2px; */
+
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    top:100%;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(175, 175, 175);
+    transition: all 0.6s linear;
+}
+.nav-link:hover:before{
+    width: 100%;
+    
+}
+/* .nav-link::after{
+    content: "";
+    position: absolute;
+    bottom:100%;
+    right: 0;
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    transition: all 0.6s linear;
+}
+.nav-link:hover:after{
+width: 100%;
+} */
+
+/* .service{
+    margin: 0px 10px;
+} */
+.heading{ 
+    font-family: 'Mate SC', serif;
+    /* font-weight: bold; */
+    font-size: 27px;
+}
+.navul{
+    margin: 0px 12px;
+}
+.imgc{
+    height: 100vh;
+    opacity: 0.9;
+}
+/* }
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin: 0px 31px ;
+    text-transform: uppercase;
+} */
+.chead{
+    font-size: 35px;
+    /* font-weight: bold; */
+    color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+
+
+}
+.cpara{
+    font-size: 28px;
+    color: black;
+    /* font-weight: bold; */
+}
+.card{
+    height: 400px;
+   
+    border: 1px solid rgb(65, 63, 63);
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 10px;
+}
+.card:hover{
+    
+    border: 4px solid rgb(90, 190, 194);
+    /* box-shadow: 0px 0px 8px 0px black; */
+}
+.imgcard{
+    height: 247px;
+    margin: 5px 0px;
+    padding: 5px 7px;
+}
+.cardstitle{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 28px;
+
+    
+}
+.cote{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: 23px;
+    font-weight: 300;
+    color: black;
+}
+.coteAuthor{
+    display: flex;
+    float: right;
+    margin: 15px 0px;
+    font-size: 18px;
+    
+    
+}
+.contactcontainer{
+    margin-top: 40px;
+    margin: 20px 30px;
+}
+.footercontact {
+ 
+
+ display: block;
+}
+.formcontainer{
+    margin: 88px auto;
+}
+.contactheading{
+    text-align:center;
+    margin: 20px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 38px;
+    color: rgb(53, 50, 50);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(49, 49, 49);
+border-bottom: 2px solid rgb(175, 164, 164);
+}
+.btn{
+    display: block;
+    margin: 15px auto;
+    padding:9px 27px;
+}
+.text-muted{
+    
+    display: flex;
+       justify-content: center;    
+    /* justify-content: center; */
+    /* margin-right: 0px; */
+}
+.aboutheading{
+    margin-top: 77px;
+    text-align: center;
+}
+.aboutheading p{
+ 
+    text-align: center;
+}
+
+.sectionabout{
+    margin: 20px auto;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+
+}
+.aboutmainimg{
+    height: 400px;
+    width: 300px;
+    
+    
+}
+.card1about {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+.card1about h1{
+    font-family: 'Baloo Tammudu 2', cursive;
+   font-weight: bold;
+}
+.aboutpara{
+    position: relative;
+    text-align: center;
+    top: 419px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    font-weight:200;
+   
+
+}
+.headingabout{
+    position: relative;
+    top: 75px;
+    text-align: center;
+    font-weight: bold;
+    margin: 4px auto;
+    text-shadow: 2px 2px 1px rgb(49, 49, 49);
+    border-bottom: 2px solid rgb(175, 164, 164);
+
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+.about1img{
+    border-radius: 10px;
+}
+
+.aboutourself{
+position: relative;
+top: 461px;
+text-align: center;
+
+}
+.aboutfooter{
+    position:absolute;
+    top: 670px;
+    text-align: start;
+    background-color: white;
+}
+
+.aboutourself2{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ---------------------------search----------- */
+.header{
+    background-image: url('/search2.jpg');
+    background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+margin: 0px 0px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+opacity: 0.9;
+align-items: center;
+
+
+}
+.header .container{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   justify-content: center;
+ margin: auto;
+ width: 50%;
+
+}
+#sbtn{
+    padding: 5px 27px;
+    border-radius: 22px;
+    /* font-family: 'Baloo Tammudu 2', cursive; */
+    font-size: 20px;
+    border-color: black;
+    /* background-color: rgb(93, 172, 172); */
+    box-shadow: 1px 4px 5px 1px black;
+    background-color: rgb(232 162 34);
+    background-color: rgb(105 206 98 / 95%);
+    font-weight: bolder;
+}
+
+
+
+#sbtn:hover{
+
+    background-color: rgb(51, 133, 19);
+}
+.form-select{
+    border-radius: 21px ;
+    padding: 7px 13px;
+    font-size: 20px;
+    margin: auto ;
+    border-color: black;
+    box-shadow: 1px 4px 5px 1px black;
+    font-weight: 600;
+    
+    
+}
+
+/* .form-select option{ 
+   display: flex;
+   text-align: center;
+
+}
+.stext{
+    padding-inline-start: 10px;
+     
+} */
+.aboutourself h1{
+    font-family: 'Baloo Tammudu 2', cursive;
+    border-bottom: 1px solid black;
+}
+.aboutourself h3{
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 15px 0px;
+}
+#subheadingplaces{
+
+text-align: center;
+
+
+}
+#imgplaces{
+    height: 400px;
+    width: 800px;
+    margin:15px 0px;
+    border-radius: 15px;
+}
+.span{
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.maps{
+    font-size: 20px;
+}
+.paraplaces{
+    font-size: 17px;
+}
+#headplace{
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutpara {visibility:hidden;}
+    .aboutourself {height:700px}
+  }
+  .footerindex{
+      text-align: center;
+  }
